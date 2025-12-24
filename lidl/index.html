@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>LIDL Camera</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIDL Selfie Experience</title>
+
+</head>
+<body>
+
+<header>
+    LIDL Fan Cam
+</header>
+
+<div class="container">
+    
+    <!-- Camera/Preview Area -->
+    <div class="media-wrapper">
+        <video id="webcam" autoplay playsinline muted></video>
+        <img id="final-image" class="preview-image hidden" alt="Selfie Preview">
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <!-- Step 1: Capture Controls -->
+    <div id="capture-controls" class="controls">
+        <p class="instruction-text">Smile! Click below to capture.</p>
+        <button id="btn-capture" class="btn-primary">📸 Take Photo</button>
+    </div>
+
+    <!-- Step 2: Post-Processing Controls -->
+    <div id="share-controls" class="controls hidden">
+        <p class="instruction-text">Looking good! Save your photo, then share it.</p>
+        
+        <button id="btn-download" class="btn-save">⬇️ Save Photo</button>
+        <button id="btn-retake" class="btn-secondary">🔄 Retake</button>
+
+        <div style="margin-top: 15px; border-top: 1px solid #ddd; padding-top: 15px;">
+            <p class="instruction-text" style="font-size: 0.8rem;">
+                Share with <span class="hashtag-display">#LIDL</span>
+            </p>
+            <div class="social-actions">
+                <button onclick="shareSocial('fb')" class="social-btn bg-fb">Facebook</button>
+                <button onclick="shareSocial('tw')" class="social-btn bg-tw">Twitter</button>
+                <button onclick="shareSocial('ig')" class="social-btn bg-ig">Instagram</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
