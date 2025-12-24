@@ -1,2 +1,2 @@
 # StoreActivationWeb
-Website HTML code for the storeactivation.com website
+Website HTML code for the [Store Activation](storeactivation.com) website
