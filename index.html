@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO METADATA -->
+    <title>StoreActivation | The #1 QR Retail Brand Activation Platform</title>
+    <meta name="description" content="Drive organic reach and foot traffic during store openings. The enterprise store activation platform that turns customers into brand advocates via branded UGC. No app required.">
+    <meta name="keywords" content="store activation platform, retail brand activation, grand opening marketing ideas, in-store marketing technology, QR code retail activation">
+
+    <!-- FONTS: Inter (Standard for modern B2B SaaS) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- TAILWIND CSS (Via CDN for immediate usage) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            900: '#0f172a', // Slate 900
+                            600: '#2563eb', // Royal Blue
+                            50: '#eff6ff',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Utilities */
+        html { scroll-behavior: smooth; }
+        .details-animated[open] summary ~ * { animation: sweep .3s ease-in-out; }
+        @keyframes sweep { 0% {opacity: 0; margin-top: -10px} 100% {opacity: 1; margin-top: 10px}}
+        
+        /* Hide scrollbar for clean horizontal scroll if needed */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-white text-slate-800 font-sans antialiased">
+
+    <!-- NAVIGATION -->
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <!-- Simple Logo Icon -->
+                    <div class="w-8 h-8 bg-brand-900 rounded-lg flex items-center justify-center text-white font-bold">S</div>
+                    <span class="font-bold text-xl tracking-tight text-slate-900">StoreActivation</span>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#how-it-works" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition">How it Works</a>
+                    <a href="#benefits" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition">Benefits</a>
+                    <a href="#use-cases" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition">Use Cases</a>
+                    <a href="#faq" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition">FAQ</a>
+                </div>
+                <div>
+                    <a href="#contact" class="hidden md:inline-flex items-center justify-center px-5 py-2.5 border border-transparent text-sm font-medium rounded-lg text-white bg-brand-900 hover:bg-slate-800 transition shadow-sm">
+                        Book a Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="pt-32 pb-20 lg:pt-40 lg:pb-28 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-16 items-center">
+                <!-- Text Content -->
+                <div class="lg:col-span-6 text-center lg:text-left mb-12 lg:mb-0">
+                    <h1 class="text-4xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">
+                        Turn Grand Opening Foot Traffic Into <span class="text-brand-600">Organic Social Reach.</span>
+                    </h1>
+                    <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                        The enterprise <strong>store activation platform</strong> that empowers customers to create branded content, share it instantly, and win prizes. No hardware. No app downloads. Just measurable ROI.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#contact" class="inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold rounded-lg text-white bg-brand-600 hover:bg-brand-700 transition shadow-md hover:-translate-y-0.5 transform duration-200">
+                            Book a Demo
+                        </a>
+                        <a href="#how-it-works" class="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-slate-700 bg-slate-50 hover:bg-slate-100 rounded-lg border border-slate-200 transition">
+                            See How It Works
+                        </a>
+                    </div>
+                    <div class="mt-8 flex items-center justify-center lg:justify-start gap-4 text-sm text-slate-500">
+                        <span class="flex items-center gap-1">
+                            <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            Enterprise Ready
+                        </span>
+                        <span class="flex items-center gap-1">
+                            <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            GDPR Compliant
+                        </span>
+                    </div>
+                </div>
+                
+                <!-- Visual / Phone Mockup -->
+                <div class="lg:col-span-6 relative">
+                    <!-- Abstract blob background -->
+                    <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-brand-50 rounded-full blur-3xl opacity-70 -z-10"></div>
+                    
+                    <!-- Phone CSS Representation -->
+                    <div class="mx-auto w-[280px] h-[560px] bg-slate-900 rounded-[3rem] p-3 shadow-2xl border-4 border-slate-100 relative">
+                        <div class="w-full h-full bg-white rounded-[2.25rem] overflow-hidden relative flex flex-col">
+                            <!-- Simulated Screen Content -->
+                            <div class="h-2/3 bg-slate-100 relative bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80&w=800');">
+                                <div class="absolute inset-0 flex items-center justify-center">
+                                    <div class="border-4 border-white/80 w-4/5 h-4/5 rounded-lg"></div> <!-- Branded Frame -->
+                                </div>
+                                <div class="absolute bottom-4 left-0 right-0 text-center">
+                                    <span class="bg-black/50 text-white px-3 py-1 rounded-full text-xs font-bold tracking-widest uppercase">Grand Opening</span>
+                                </div>
+                            </div>
+                            <div class="h-1/3 p-6 flex flex-col justify-center items-center text-center">
+                                <h3 class="font-bold text-slate-900 text-lg mb-1">You Won!</h3>
+                                <p class="text-xs text-slate-500 mb-4">Share your photo to claim your prize.</p>
+                                <button class="w-full bg-brand-600 text-white text-sm font-medium py-3 rounded-lg shadow-lg">Share to Instagram</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST BAR / SOCIAL PROOF -->
+    <section class="py-10 border-y border-slate-100 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-6">Trusted by Top Retail Marketing Teams</p>
+            <div class="flex flex-wrap justify-center gap-12 lg:gap-20 opacity-40 grayscale hover:grayscale-0 transition-all duration-500">
+                <!-- Placeholder Text Logos for Demo Purposes -->
+                <span class="text-2xl font-bold font-serif text-slate-800">SEPHORA</span>
+                <span class="text-2xl font-black italic text-slate-800">NIKE</span>
+                <span class="text-2xl font-bold text-slate-800 tracking-tighter">TARGET</span>
+                <span class="text-2xl font-bold text-slate-800">UNIQLO</span>
+                <span class="text-2xl font-bold text-slate-800 tracking-wide">sweetgreen</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-20">
+                <h2 class="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">Frictionless Engagement. Zero Barrier to Entry.</h2>
+                <p class="text-lg text-slate-600">Unlike traditional photo booths, StoreActivation uses <strong>in-store marketing technology</strong> that lives on the customer’s device, not yours.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-12">
+                <!-- Step 1 -->
+                <div class="text-center group">
+                    <div class="w-16 h-16 mx-auto bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition duration-300">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">1. Scan & Engage</h3>
+                    <p class="text-slate-600 leading-relaxed">Customers scan a QR code on signage or mirrors. No app download required—launches instantly in browser.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="text-center group">
+                    <div class="w-16 h-16 mx-auto bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition duration-300">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">2. Snap & Brand</h3>
+                    <p class="text-slate-600 leading-relaxed">Users take a photo or selfie which is automatically wrapped in your campaign’s custom branded overlay.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="text-center group">
+                    <div class="w-16 h-16 mx-auto bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition duration-300">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">3. Share & Win</h3>
+                    <p class="text-slate-600 leading-relaxed">To unlock their prize entry (gift card, merch, discount), the user posts to social media. You get the reach.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY IT WORKS (SPLIT) -->
+    <section class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-slate-900 mb-8">The Missing Link in Your <br><span class="text-brand-600">Retail Brand Activation</span> Strategy</h2>
+                    
+                    <div class="space-y-8">
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-white border border-slate-200 flex items-center justify-center text-brand-600 font-bold">1</div>
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-900 mb-2">Amplify Launch Momentum</h3>
+                                <p class="text-slate-600">StoreActivation ensures foot traffic echoes online. By incentivizing sharing, you turn 500 visitors into 50,000 organic impressions during launch week.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-white border border-slate-200 flex items-center justify-center text-brand-600 font-bold">2</div>
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-900 mb-2">Authenticity Scales Better</h3>
+                                <p class="text-slate-600">We automate <strong>user-generated content for retail</strong>, giving you hundreds of authentic endorsements at scale. Consumers trust friends, not ads.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-white border border-slate-200 flex items-center justify-center text-brand-600 font-bold">3</div>
+                            <div>
+                                <h3 class="text-xl font-bold text-slate-900 mb-2">Enterprise-Grade Reliability</h3>
+                                <p class="text-slate-600">Cloud-based, scalable to hundreds of locations simultaneously, and requires zero on-site technical staff.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROI Chart Visual -->
+                <div class="mt-12 lg:mt-0 bg-white p-8 rounded-2xl shadow-xl border border-slate-100">
+                    <h4 class="text-sm font-semibold text-slate-500 uppercase mb-6">Launch Week Social Impressions</h4>
+                    <!-- CSS Bar Chart -->
+                    <div class="flex items-end space-x-4 h-64 border-b border-slate-200 pb-4">
+                        <div class="w-1/3 group relative flex flex-col items-center">
+                            <div class="w-full bg-slate-200 rounded-t-lg h-1/4 group-hover:bg-slate-300 transition-all"></div>
+                            <span class="mt-4 text-xs font-medium text-slate-500 text-center">Standard<br>Launch</span>
+                        </div>
+                        <div class="w-1/3 group relative flex flex-col items-center">
+                            <div class="w-full bg-brand-200 rounded-t-lg h-2/4 group-hover:bg-brand-300 transition-all"></div>
+                            <span class="mt-4 text-xs font-medium text-slate-500 text-center">Paid<br>Influencers</span>
+                        </div>
+                        <div class="w-1/3 group relative flex flex-col items-center">
+                            <div class="absolute -top-10 bg-brand-900 text-white text-xs font-bold py-1 px-2 rounded shadow-lg">+415%</div>
+                            <div class="w-full bg-brand-600 rounded-t-lg h-full shadow-lg shadow-brand-500/30"></div>
+                            <span class="mt-4 text-xs font-bold text-brand-600 text-center">StoreActivation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFITS / ROI GRID -->
+    <section id="benefits" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-slate-900">Measurable Outcomes, Not Gimmicks.</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card 1 -->
+                <div class="p-6 border border-slate-200 rounded-xl hover:shadow-xl hover:border-brand-200 hover:-translate-y-1 transition duration-300 bg-white">
+                    <div class="text-brand-600 mb-4">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Increase Organic Reach</h3>
+                    <p class="text-sm text-slate-600">Leverage your customers' social networks to broadcast your new location.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="p-6 border border-slate-200 rounded-xl hover:shadow-xl hover:border-brand-200 hover:-translate-y-1 transition duration-300 bg-white">
+                    <div class="text-brand-600 mb-4">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Capture First-Party Data</h3>
+                    <p class="text-sm text-slate-600">Collect emails and phone numbers for your CRM as part of the contest entry process.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="p-6 border border-slate-200 rounded-xl hover:shadow-xl hover:border-brand-200 hover:-translate-y-1 transition duration-300 bg-white">
+                    <div class="text-brand-600 mb-4">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Drive Dwell Time</h3>
+                    <p class="text-sm text-slate-600">Gamification keeps customers in-store longer, increasing basket-size potential.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="p-6 border border-slate-200 rounded-xl hover:shadow-xl hover:border-brand-200 hover:-translate-y-1 transition duration-300 bg-white">
+                    <div class="text-brand-600 mb-4">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Rapid Deployment</h3>
+                    <p class="text-sm text-slate-600">Launch across 50 regions in minutes. Centralized control for brand compliance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- USE CASES -->
+    <section id="use-cases" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-12">Built for Every Retail Scenario</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                    <h3 class="text-xl font-bold mb-3 text-brand-50">Grand Opening Marketing</h3>
+                    <p class="text-slate-300">Generate maximum buzz during the critical first 7 days of a new store launch.</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                    <h3 class="text-xl font-bold mb-3 text-brand-50">Flagship Store Activations</h3>
+                    <p class="text-slate-300">Create premium, high-fidelity digital experiences for high-profile locations.</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                    <h3 class="text-xl font-bold mb-3 text-brand-50">Pop-Ups & Mall Activations</h3>
+                    <p class="text-slate-300">Maximize the impact of temporary spaces with a footprint-free digital layer.</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                    <h3 class="text-xl font-bold mb-3 text-brand-50">Seasonal Campaigns</h3>
+                    <p class="text-slate-300">Deploy holiday-themed frames and contest logic across your entire fleet instantly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="py-24 bg-brand-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <svg class="w-12 h-12 mx-auto text-brand-300 mb-8" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H15.017C14.4647 8 14.017 8.44772 14.017 9V11C14.017 11.5523 13.5693 12 13.017 12H12.017V5H22.017V15C22.017 16.6569 20.6739 18 19.017 18H16.017C15.4647 18 15.017 18.4477 15.017 19V21H14.017ZM8.01691 21L8.01691 18C8.01691 16.8954 8.91234 16 10.0169 16H13.0169C13.5692 16 14.0169 15.5523 14.0169 15V9C14.0169 8.44772 13.5692 8 13.0169 8H9.01691C8.46462 8 8.01691 8.44772 8.01691 9V11C8.01691 11.5523 7.56919 12 7.01691 12H6.01691V5H16.0169V15C16.0169 16.6569 14.6738 18 13.0169 18H10.0169C9.46462 18 9.01691 18.4477 9.01691 19V21H8.01691Z"/></svg>
+            <blockquote class="text-2xl md:text-3xl font-medium text-slate-900 leading-relaxed mb-8">
+                "We used to rent expensive photo booths that broke down. StoreActivation ran seamlessly across our 12-store regional launch. The <span class="bg-yellow-200 px-1">QR code retail activation</span> generated 4x the social impressions of our previous vendors."
+            </blockquote>
+            <cite class="not-italic">
+                <div class="font-bold text-slate-900">Sarah Jenkins</div>
+                <div class="text-slate-600">Regional Marketing Director</div>
+            </cite>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-24 bg-white">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-slate-900 mb-12">Frequently Asked Questions</h2>
+            
+            <div class="space-y-4">
+                <details class="group details-animated bg-slate-50 p-6 rounded-lg cursor-pointer">
+                    <summary class="flex justify-between items-center font-semibold text-slate-900 list-none">
+                        <span>Does the customer need to download an app?</span>
+                        <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <p class="text-slate-600 mt-4 leading-relaxed">No. This is a web-based experience. It works instantly on any smartphone browser via QR scan, reducing friction and increasing conversion rates.</p>
+                </details>
+
+                <details class="group details-animated bg-slate-50 p-6 rounded-lg cursor-pointer">
+                    <summary class="flex justify-between items-center font-semibold text-slate-900 list-none">
+                        <span>How long does setup take?</span>
+                        <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <p class="text-slate-600 mt-4 leading-relaxed">Once we have your brand assets (logo, overlay design), a campaign can be live in under 24 hours. You receive the QR codes ready for print immediately.</p>
+                </details>
+
+                <details class="group details-animated bg-slate-50 p-6 rounded-lg cursor-pointer">
+                    <summary class="flex justify-between items-center font-semibold text-slate-900 list-none">
+                        <span>Is the platform compliant with brand guidelines?</span>
+                        <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <p class="text-slate-600 mt-4 leading-relaxed">Yes. You have 100% control over the visual interface, photo overlays, and copy. It serves as a white-label extension of your brand.</p>
+                </details>
+
+                <details class="group details-animated bg-slate-50 p-6 rounded-lg cursor-pointer">
+                    <summary class="flex justify-between items-center font-semibold text-slate-900 list-none">
+                        <span>Can we capture customer data?</span>
+                        <span class="transition group-open:rotate-180">
+                            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <p class="text-slate-600 mt-4 leading-relaxed">Yes. You can require email or SMS opt-in to enter the prize drawing, allowing you to build your CRM for future retargeting.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section id="contact" class="py-24 bg-brand-900">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl lg:text-5xl font-bold text-white mb-6">Ready to Turn Your Next Opening Into a Social Event?</h2>
+            <p class="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">Join the leading retail brands using StoreActivation to drive engagement, data, and revenue.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="px-8 py-4 bg-brand-600 hover:bg-brand-500 text-white font-bold rounded-lg text-lg transition shadow-lg shadow-brand-900/50">
+                    Talk to Sales
+                </button>
+                <button class="px-8 py-4 bg-transparent border border-slate-600 hover:border-slate-400 text-white font-medium rounded-lg text-lg transition">
+                    View Pricing
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-6 h-6 bg-slate-700 rounded-md flex items-center justify-center text-white text-xs font-bold">S</div>
+                        <span class="font-bold text-white">StoreActivation</span>
+                    </div>
+                    <p class="text-sm max-w-xs">The enterprise store activation platform for modern retail brands.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Product</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-white transition">Features</a></li>
+                        <li><a href="#" class="hover:text-white transition">Security</a></li>
+                        <li><a href="#" class="hover:text-white transition">Case Studies</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-white transition">About</a></li>
+                        <li><a href="#" class="hover:text-white transition">Contact</a></li>
+                        <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs">
+                <p>&copy; 2025 StoreActivation Inc. All rights reserved.</p>
+                <div class="mt-4 md:mt-0 flex gap-6">
+                    <a href="#" class="hover:text-white">Terms</a>
+                    <a href="#" class="hover:text-white">Privacy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
